@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D3A594E2702FB900098267D /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A594D2702FB900098267D /* LaunchView.swift */; };
+		0D3A5951270308370098267D /* ExtendedDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A5950270308370098267D /* ExtendedDivider.swift */; };
+		0D4F4FA726FDA45D0040937F /* Font+ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F4FA626FDA45D0040937F /* Font+ViewModifier.swift */; };
+		0D4F4FA926FDA62C0040937F /* View+FontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F4FA826FDA62C0040937F /* View+FontStyles.swift */; };
+		0D4F4FAD26FDC3D80040937F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F4FAC26FDC3D80040937F /* Constants.swift */; };
+		0D4F4FB126FDCEDF0040937F /* Color+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F4FB026FDCEDF0040937F /* Color+Palette.swift */; };
+		0D6433DB26DE1B6700C90F9A /* GQPOCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6433DA26DE1B6700C90F9A /* GQPOCApp.swift */; };
+		0D6433DD26DE1B6700C90F9A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6433DC26DE1B6700C90F9A /* MainView.swift */; };
+		0D6433DF26DE1B6700C90F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6433DE26DE1B6700C90F9A /* Assets.xcassets */; };
+		0D6433E226DE1B6700C90F9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6433E126DE1B6700C90F9A /* Preview Assets.xcassets */; };
+		0D83120926E1E7900044ACFB /* ContentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83120826E1E7900044ACFB /* ContentCard.swift */; };
+		0D83120D26E20FDF0044ACFB /* ShoppingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D83120C26E20FDF0044ACFB /* ShoppingCard.swift */; };
+		0D8D727A26EA14BE00C349F1 /* GTWalsheimPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D725A26EA14BD00C349F1 /* GTWalsheimPro-Light.ttf */; };
+		0D8D727B26EA14BE00C349F1 /* GTWalsheimPro-CondensedRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D725B26EA14BD00C349F1 /* GTWalsheimPro-CondensedRegular.ttf */; };
+		0D8D727C26EA14BE00C349F1 /* GTWalsheimPro-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D725C26EA14BD00C349F1 /* GTWalsheimPro-UltraLight.ttf */; };
+		0D8D727D26EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraLightOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D725D26EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraLightOblique.ttf */; };
+		0D8D727E26EA14BE00C349F1 /* GTWalsheimPro-CondensedThinOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D725E26EA14BE00C349F1 /* GTWalsheimPro-CondensedThinOblique.ttf */; };
+		0D8D727F26EA14BE00C349F1 /* GTWalsheimPro-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D725F26EA14BE00C349F1 /* GTWalsheimPro-Thin.ttf */; };
+		0D8D728026EA14BE00C349F1 /* GTWalsheimPro-ThinOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726026EA14BE00C349F1 /* GTWalsheimPro-ThinOblique.ttf */; };
+		0D8D728126EA14BE00C349F1 /* GTWalsheimPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726126EA14BE00C349F1 /* GTWalsheimPro-Bold.ttf */; };
+		0D8D728226EA14BE00C349F1 /* GTWalsheimPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726226EA14BE00C349F1 /* GTWalsheimPro-Medium.ttf */; };
+		0D8D728326EA14BE00C349F1 /* GTWalsheimPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726326EA14BE00C349F1 /* GTWalsheimPro-Black.ttf */; };
+		0D8D728426EA14BE00C349F1 /* GTWalsheimPro-CondensedRegularOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726426EA14BE00C349F1 /* GTWalsheimPro-CondensedRegularOblique.ttf */; };
+		0D8D728526EA14BE00C349F1 /* GTWalsheimPro-UltraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726526EA14BE00C349F1 /* GTWalsheimPro-UltraBold.ttf */; };
+		0D8D728626EA14BE00C349F1 /* GTWalsheimPro-UltraLightOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726626EA14BE00C349F1 /* GTWalsheimPro-UltraLightOblique.ttf */; };
+		0D8D728726EA14BE00C349F1 /* GTWalsheimPro-MediumOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726726EA14BE00C349F1 /* GTWalsheimPro-MediumOblique.ttf */; };
+		0D8D728826EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraBoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726826EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraBoldOblique.ttf */; };
+		0D8D728926EA14BE00C349F1 /* GTWalsheimPro-CondensedBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726926EA14BE00C349F1 /* GTWalsheimPro-CondensedBlack.ttf */; };
+		0D8D728A26EA14BE00C349F1 /* GTWalsheimPro-CondensedLightOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726A26EA14BE00C349F1 /* GTWalsheimPro-CondensedLightOblique.ttf */; };
+		0D8D728B26EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726B26EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraLight.ttf */; };
+		0D8D728C26EA14BE00C349F1 /* GTWalsheimPro-LightOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726C26EA14BE00C349F1 /* GTWalsheimPro-LightOblique.ttf */; };
+		0D8D728D26EA14BE00C349F1 /* GTWalsheimPro-CondensedBlackOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726D26EA14BE00C349F1 /* GTWalsheimPro-CondensedBlackOblique.ttf */; };
+		0D8D728E26EA14BE00C349F1 /* GTWalsheimPro-RegularOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726E26EA14BE00C349F1 /* GTWalsheimPro-RegularOblique.ttf */; };
+		0D8D728F26EA14BE00C349F1 /* GTWalsheimPro-CondensedLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D726F26EA14BE00C349F1 /* GTWalsheimPro-CondensedLight.ttf */; };
+		0D8D729026EA14BE00C349F1 /* GTWalsheimPro-CondensedThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D727026EA14BE00C349F1 /* GTWalsheimPro-CondensedThin.ttf */; };
+		0D8D729126EA14BE00C349F1 /* GTWalsheimPro-UltraBoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D727126EA14BE00C349F1 /* GTWalsheimPro-UltraBoldOblique.ttf */; };
+		0D8D729226EA14BE00C349F1 /* GTWalsheimPro-CondensedBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D727226EA14BE00C349F1 /* GTWalsheimPro-CondensedBold.ttf */; };
+		0D8D729326EA14BE00C349F1 /* GTWalsheimPro-CondensedMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D727326EA14BE00C349F1 /* GTWalsheimPro-CondensedMedium.ttf */; };
+		0D8D729426EA14BF00C349F1 /* GTWalsheimPro-CondensedBoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D727426EA14BE00C349F1 /* GTWalsheimPro-CondensedBoldOblique.ttf */; };
+		0D8D729526EA14BF00C349F1 /* GTWalsheimPro-BlackOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D727526EA14BE00C349F1 /* GTWalsheimPro-BlackOblique.ttf */; };
+		0D8D729626EA14BF00C349F1 /* GTWalsheimPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D727626EA14BE00C349F1 /* GTWalsheimPro-Regular.ttf */; };
+		0D8D729726EA14BF00C349F1 /* GTWalsheimPro-CondensedUltraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D727726EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraBold.ttf */; };
+		0D8D729826EA14BF00C349F1 /* GTWalsheimPro-BoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D727826EA14BE00C349F1 /* GTWalsheimPro-BoldOblique.ttf */; };
+		0D8D729926EA14BF00C349F1 /* GTWalsheimPro-CondensedMediumOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8D727926EA14BE00C349F1 /* GTWalsheimPro-CondensedMediumOblique.ttf */; };
+		0DA50C4E2701D043006E69E8 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA50C4D2701D043006E69E8 /* ItemDetailView.swift */; };
+		0DBACF4826FB4EBC0039BEE7 /* ImageViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBACF4726FB4EBC0039BEE7 /* ImageViewCard.swift */; };
+		0DBACF4F26FC5E9D0039BEE7 /* View+OptionalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBACF4C26FC5E9D0039BEE7 /* View+OptionalAlignment.swift */; };
+		0DBACF5026FC5E9D0039BEE7 /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBACF4D26FC5E9D0039BEE7 /* SegmentedPicker.swift */; };
+		0DBACF5126FC5E9D0039BEE7 /* HorizontalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBACF4E26FC5E9D0039BEE7 /* HorizontalAlignment.swift */; };
+		0DBCE3E426F9BB22005E0504 /* Staggered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBCE3E326F9BB22005E0504 /* Staggered.swift */; };
+		0DD6420B26DEA6890071F1CE /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD6420A26DEA6890071F1CE /* Carousel.swift */; };
+		0DDE3DFC26E62923008FAD13 /* FancyContentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDE3DFB26E62923008FAD13 /* FancyContentCard.swift */; };
+		0DE17AC226F0AC6800CEC352 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE17AC126F0AC6800CEC352 /* Section.swift */; };
+		0DE17AC526F25CF300CEC352 /* OutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE17AC426F25CF300CEC352 /* OutlineButton.swift */; };
+		0DF3CA6D26E9F204002EB9F2 /* FancyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF3CA6C26E9F204002EB9F2 /* FancyShape.swift */; };
+		E2AAD3CB2703BF430090B852 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AAD3CA2703BF430090B852 /* TabsView.swift */; };
+		E2AAD3CD2703C60A0090B852 /* RecommendationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AAD3CC2703C60A0090B852 /* RecommendationsView.swift */; };
+		E2AAD3CF2703CB050090B852 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AAD3CE2703CB050090B852 /* ImageLoader.swift */; };
+		E2AAD3D22703CB2B0090B852 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AAD3D12703CB2B0090B852 /* AsyncImage.swift */; };
+		E2AAD3D42704259D0090B852 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AAD3D32704259D0090B852 /* ImageCache.swift */; };
+		E2AAD3D727044E010090B852 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AAD3D627044E010090B852 /* PullToRefresh.swift */; };
+		E2AAD3DA27044ED80090B852 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AAD3D927044ED80090B852 /* LoaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D3A594D2702FB900098267D /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		0D3A5950270308370098267D /* ExtendedDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedDivider.swift; sourceTree = "<group>"; };
+		0D4F4FA626FDA45D0040937F /* Font+ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+ViewModifier.swift"; sourceTree = "<group>"; };
+		0D4F4FA826FDA62C0040937F /* View+FontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+FontStyles.swift"; sourceTree = "<group>"; };
+		0D4F4FAC26FDC3D80040937F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0D4F4FB026FDCEDF0040937F /* Color+Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Palette.swift"; sourceTree = "<group>"; };
+		0D6433D726DE1B6600C90F9A /* GQPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GQPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D6433DA26DE1B6700C90F9A /* GQPOCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GQPOCApp.swift; sourceTree = "<group>"; };
+		0D6433DC26DE1B6700C90F9A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0D6433DE26DE1B6700C90F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D6433E126DE1B6700C90F9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D6433E326DE1B6700C90F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D83120826E1E7900044ACFB /* ContentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCard.swift; sourceTree = "<group>"; };
+		0D83120C26E20FDF0044ACFB /* ShoppingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCard.swift; sourceTree = "<group>"; };
+		0D8D725A26EA14BD00C349F1 /* GTWalsheimPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-Light.ttf"; sourceTree = "<group>"; };
+		0D8D725B26EA14BD00C349F1 /* GTWalsheimPro-CondensedRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedRegular.ttf"; sourceTree = "<group>"; };
+		0D8D725C26EA14BD00C349F1 /* GTWalsheimPro-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-UltraLight.ttf"; sourceTree = "<group>"; };
+		0D8D725D26EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraLightOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedUltraLightOblique.ttf"; sourceTree = "<group>"; };
+		0D8D725E26EA14BE00C349F1 /* GTWalsheimPro-CondensedThinOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedThinOblique.ttf"; sourceTree = "<group>"; };
+		0D8D725F26EA14BE00C349F1 /* GTWalsheimPro-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-Thin.ttf"; sourceTree = "<group>"; };
+		0D8D726026EA14BE00C349F1 /* GTWalsheimPro-ThinOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-ThinOblique.ttf"; sourceTree = "<group>"; };
+		0D8D726126EA14BE00C349F1 /* GTWalsheimPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-Bold.ttf"; sourceTree = "<group>"; };
+		0D8D726226EA14BE00C349F1 /* GTWalsheimPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-Medium.ttf"; sourceTree = "<group>"; };
+		0D8D726326EA14BE00C349F1 /* GTWalsheimPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-Black.ttf"; sourceTree = "<group>"; };
+		0D8D726426EA14BE00C349F1 /* GTWalsheimPro-CondensedRegularOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedRegularOblique.ttf"; sourceTree = "<group>"; };
+		0D8D726526EA14BE00C349F1 /* GTWalsheimPro-UltraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-UltraBold.ttf"; sourceTree = "<group>"; };
+		0D8D726626EA14BE00C349F1 /* GTWalsheimPro-UltraLightOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-UltraLightOblique.ttf"; sourceTree = "<group>"; };
+		0D8D726726EA14BE00C349F1 /* GTWalsheimPro-MediumOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-MediumOblique.ttf"; sourceTree = "<group>"; };
+		0D8D726826EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraBoldOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedUltraBoldOblique.ttf"; sourceTree = "<group>"; };
+		0D8D726926EA14BE00C349F1 /* GTWalsheimPro-CondensedBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedBlack.ttf"; sourceTree = "<group>"; };
+		0D8D726A26EA14BE00C349F1 /* GTWalsheimPro-CondensedLightOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedLightOblique.ttf"; sourceTree = "<group>"; };
+		0D8D726B26EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedUltraLight.ttf"; sourceTree = "<group>"; };
+		0D8D726C26EA14BE00C349F1 /* GTWalsheimPro-LightOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-LightOblique.ttf"; sourceTree = "<group>"; };
+		0D8D726D26EA14BE00C349F1 /* GTWalsheimPro-CondensedBlackOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedBlackOblique.ttf"; sourceTree = "<group>"; };
+		0D8D726E26EA14BE00C349F1 /* GTWalsheimPro-RegularOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-RegularOblique.ttf"; sourceTree = "<group>"; };
+		0D8D726F26EA14BE00C349F1 /* GTWalsheimPro-CondensedLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedLight.ttf"; sourceTree = "<group>"; };
+		0D8D727026EA14BE00C349F1 /* GTWalsheimPro-CondensedThin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedThin.ttf"; sourceTree = "<group>"; };
+		0D8D727126EA14BE00C349F1 /* GTWalsheimPro-UltraBoldOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-UltraBoldOblique.ttf"; sourceTree = "<group>"; };
+		0D8D727226EA14BE00C349F1 /* GTWalsheimPro-CondensedBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedBold.ttf"; sourceTree = "<group>"; };
+		0D8D727326EA14BE00C349F1 /* GTWalsheimPro-CondensedMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedMedium.ttf"; sourceTree = "<group>"; };
+		0D8D727426EA14BE00C349F1 /* GTWalsheimPro-CondensedBoldOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedBoldOblique.ttf"; sourceTree = "<group>"; };
+		0D8D727526EA14BE00C349F1 /* GTWalsheimPro-BlackOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-BlackOblique.ttf"; sourceTree = "<group>"; };
+		0D8D727626EA14BE00C349F1 /* GTWalsheimPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-Regular.ttf"; sourceTree = "<group>"; };
+		0D8D727726EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedUltraBold.ttf"; sourceTree = "<group>"; };
+		0D8D727826EA14BE00C349F1 /* GTWalsheimPro-BoldOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-BoldOblique.ttf"; sourceTree = "<group>"; };
+		0D8D727926EA14BE00C349F1 /* GTWalsheimPro-CondensedMediumOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-CondensedMediumOblique.ttf"; sourceTree = "<group>"; };
+		0DA50C4D2701D043006E69E8 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		0DBACF4726FB4EBC0039BEE7 /* ImageViewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCard.swift; sourceTree = "<group>"; };
+		0DBACF4C26FC5E9D0039BEE7 /* View+OptionalAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+OptionalAlignment.swift"; sourceTree = "<group>"; };
+		0DBACF4D26FC5E9D0039BEE7 /* SegmentedPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
+		0DBACF4E26FC5E9D0039BEE7 /* HorizontalAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalAlignment.swift; sourceTree = "<group>"; };
+		0DBCE3E326F9BB22005E0504 /* Staggered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staggered.swift; sourceTree = "<group>"; };
+		0DD6420A26DEA6890071F1CE /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		0DDE3DFB26E62923008FAD13 /* FancyContentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyContentCard.swift; sourceTree = "<group>"; };
+		0DE17AC126F0AC6800CEC352 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		0DE17AC426F25CF300CEC352 /* OutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineButton.swift; sourceTree = "<group>"; };
+		0DF3CA6C26E9F204002EB9F2 /* FancyShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyShape.swift; sourceTree = "<group>"; };
+		E2AAD3CA2703BF430090B852 /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		E2AAD3CC2703C60A0090B852 /* RecommendationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsView.swift; sourceTree = "<group>"; };
+		E2AAD3CE2703CB050090B852 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		E2AAD3D12703CB2B0090B852 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		E2AAD3D32704259D0090B852 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		E2AAD3D627044E010090B852 /* PullToRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
+		E2AAD3D927044ED80090B852 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D6433D426DE1B6600C90F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D11BC9526DF918B00ABA61D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0D8D726326EA14BE00C349F1 /* GTWalsheimPro-Black.ttf */,
+				0D8D727526EA14BE00C349F1 /* GTWalsheimPro-BlackOblique.ttf */,
+				0D8D726126EA14BE00C349F1 /* GTWalsheimPro-Bold.ttf */,
+				0D8D727826EA14BE00C349F1 /* GTWalsheimPro-BoldOblique.ttf */,
+				0D8D726926EA14BE00C349F1 /* GTWalsheimPro-CondensedBlack.ttf */,
+				0D8D726D26EA14BE00C349F1 /* GTWalsheimPro-CondensedBlackOblique.ttf */,
+				0D8D727226EA14BE00C349F1 /* GTWalsheimPro-CondensedBold.ttf */,
+				0D8D727426EA14BE00C349F1 /* GTWalsheimPro-CondensedBoldOblique.ttf */,
+				0D8D726F26EA14BE00C349F1 /* GTWalsheimPro-CondensedLight.ttf */,
+				0D8D726A26EA14BE00C349F1 /* GTWalsheimPro-CondensedLightOblique.ttf */,
+				0D8D727326EA14BE00C349F1 /* GTWalsheimPro-CondensedMedium.ttf */,
+				0D8D727926EA14BE00C349F1 /* GTWalsheimPro-CondensedMediumOblique.ttf */,
+				0D8D725B26EA14BD00C349F1 /* GTWalsheimPro-CondensedRegular.ttf */,
+				0D8D726426EA14BE00C349F1 /* GTWalsheimPro-CondensedRegularOblique.ttf */,
+				0D8D727026EA14BE00C349F1 /* GTWalsheimPro-CondensedThin.ttf */,
+				0D8D725E26EA14BE00C349F1 /* GTWalsheimPro-CondensedThinOblique.ttf */,
+				0D8D727726EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraBold.ttf */,
+				0D8D726826EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraBoldOblique.ttf */,
+				0D8D726B26EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraLight.ttf */,
+				0D8D725D26EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraLightOblique.ttf */,
+				0D8D725A26EA14BD00C349F1 /* GTWalsheimPro-Light.ttf */,
+				0D8D726C26EA14BE00C349F1 /* GTWalsheimPro-LightOblique.ttf */,
+				0D8D726226EA14BE00C349F1 /* GTWalsheimPro-Medium.ttf */,
+				0D8D726726EA14BE00C349F1 /* GTWalsheimPro-MediumOblique.ttf */,
+				0D8D727626EA14BE00C349F1 /* GTWalsheimPro-Regular.ttf */,
+				0D8D726E26EA14BE00C349F1 /* GTWalsheimPro-RegularOblique.ttf */,
+				0D8D725F26EA14BE00C349F1 /* GTWalsheimPro-Thin.ttf */,
+				0D8D726026EA14BE00C349F1 /* GTWalsheimPro-ThinOblique.ttf */,
+				0D8D726526EA14BE00C349F1 /* GTWalsheimPro-UltraBold.ttf */,
+				0D8D727126EA14BE00C349F1 /* GTWalsheimPro-UltraBoldOblique.ttf */,
+				0D8D725C26EA14BD00C349F1 /* GTWalsheimPro-UltraLight.ttf */,
+				0D8D726626EA14BE00C349F1 /* GTWalsheimPro-UltraLightOblique.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0D2C353C26E8A74E007F7CE2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0D3A594D2702FB900098267D /* LaunchView.swift */,
+				E2AAD3CA2703BF430090B852 /* TabsView.swift */,
+				0D6433DC26DE1B6700C90F9A /* MainView.swift */,
+				E2AAD3CC2703C60A0090B852 /* RecommendationsView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0D2C353D26E8A768007F7CE2 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				0D6433DE26DE1B6700C90F9A /* Assets.xcassets */,
+				0D6433E326DE1B6700C90F9A /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		0D3A594F2703081D0098267D /* Divider */ = {
+			isa = PBXGroup;
+			children = (
+				0D3A5950270308370098267D /* ExtendedDivider.swift */,
+			);
+			path = Divider;
+			sourceTree = "<group>";
+		};
+		0D4F4FA526FDA4160040937F /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				0D4F4FA626FDA45D0040937F /* Font+ViewModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		0D4F4FAA26FDA73F0040937F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0D4F4FA826FDA62C0040937F /* View+FontStyles.swift */,
+				0D4F4FB026FDCEDF0040937F /* Color+Palette.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0D4F4FAB26FDC3C80040937F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0D4F4FAC26FDC3D80040937F /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		0D6433CE26DE1B6600C90F9A = {
+			isa = PBXGroup;
+			children = (
+				0D6433D926DE1B6600C90F9A /* GQPOC */,
+				0D6433D826DE1B6600C90F9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D6433D826DE1B6600C90F9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D6433D726DE1B6600C90F9A /* GQPOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D6433D926DE1B6600C90F9A /* GQPOC */ = {
+			isa = PBXGroup;
+			children = (
+				0DD6420926DEA6750071F1CE /* Common */,
+				0DD6420D26DEA9B20071F1CE /* App */,
+				0D11BC9526DF918B00ABA61D /* Fonts */,
+				0DA50C4B2701D003006E69E8 /* Views */,
+				0D2C353D26E8A768007F7CE2 /* Supporting */,
+				0D6433E026DE1B6700C90F9A /* Preview Content */,
+			);
+			path = GQPOC;
+			sourceTree = "<group>";
+		};
+		0D6433E026DE1B6700C90F9A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0D6433E126DE1B6700C90F9A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D83120726E1E7800044ACFB /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				0D83120826E1E7900044ACFB /* ContentCard.swift */,
+				0D83120C26E20FDF0044ACFB /* ShoppingCard.swift */,
+				0DDE3DFB26E62923008FAD13 /* FancyContentCard.swift */,
+				0DBACF4726FB4EBC0039BEE7 /* ImageViewCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		0DA50C4B2701D003006E69E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DA50C4C2701D01B006E69E8 /* Detail */,
+				0D2C353C26E8A74E007F7CE2 /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DA50C4C2701D01B006E69E8 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				0DA50C4D2701D043006E69E8 /* ItemDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		0DBACF4926FC5AEF0039BEE7 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				0DBACF5226FC69300039BEE7 /* SegmentedPicker */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		0DBACF5226FC69300039BEE7 /* SegmentedPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0DBACF4E26FC5E9D0039BEE7 /* HorizontalAlignment.swift */,
+				0DBACF4D26FC5E9D0039BEE7 /* SegmentedPicker.swift */,
+				0DBACF4C26FC5E9D0039BEE7 /* View+OptionalAlignment.swift */,
+			);
+			path = SegmentedPicker;
+			sourceTree = "<group>";
+		};
+		0DBCE3E226F9B334005E0504 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				0DBCE3E326F9BB22005E0504 /* Staggered.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		0DD6420926DEA6750071F1CE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E2AAD3D827044EC60090B852 /* LoaderView */,
+				E2AAD3D527044DDF0090B852 /* PullToRefresh */,
+				E2AAD3D02703CB150090B852 /* ImageLoader */,
+				0D3A594F2703081D0098267D /* Divider */,
+				0D4F4FAB26FDC3C80040937F /* Constants */,
+				0DBACF4926FC5AEF0039BEE7 /* Elements */,
+				0DBCE3E226F9B334005E0504 /* Layouts */,
+				0DE17AC326F25CC000CEC352 /* Styles */,
+				0DE17AC026F0A90B00CEC352 /* Headers */,
+				0DF3CA6B26E9F091002EB9F2 /* Shapes */,
+				0D83120726E1E7800044ACFB /* Cards */,
+				0DD6420C26DEA9A00071F1CE /* Carousel */,
+				0D4F4FA526FDA4160040937F /* Modifiers */,
+				0D4F4FAA26FDA73F0040937F /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0DD6420C26DEA9A00071F1CE /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				0DD6420A26DEA6890071F1CE /* Carousel.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		0DD6420D26DEA9B20071F1CE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0D6433DA26DE1B6700C90F9A /* GQPOCApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0DE17AC026F0A90B00CEC352 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				0DE17AC126F0AC6800CEC352 /* Section.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		0DE17AC326F25CC000CEC352 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				0DE17AC426F25CF300CEC352 /* OutlineButton.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		0DF3CA6B26E9F091002EB9F2 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				0DF3CA6C26E9F204002EB9F2 /* FancyShape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		E2AAD3D02703CB150090B852 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				E2AAD3CE2703CB050090B852 /* ImageLoader.swift */,
+				E2AAD3D12703CB2B0090B852 /* AsyncImage.swift */,
+				E2AAD3D32704259D0090B852 /* ImageCache.swift */,
+			);
+			path = ImageLoader;
+			sourceTree = "<group>";
+		};
+		E2AAD3D527044DDF0090B852 /* PullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				E2AAD3D627044E010090B852 /* PullToRefresh.swift */,
+			);
+			path = PullToRefresh;
+			sourceTree = "<group>";
+		};
+		E2AAD3D827044EC60090B852 /* LoaderView */ = {
+			isa = PBXGroup;
+			children = (
+				E2AAD3D927044ED80090B852 /* LoaderView.swift */,
+			);
+			path = LoaderView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D6433D626DE1B6600C90F9A /* GQPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D6433E626DE1B6700C90F9A /* Build configuration list for PBXNativeTarget "GQPOC" */;
+			buildPhases = (
+				0D6433D326DE1B6600C90F9A /* Sources */,
+				0D6433D426DE1B6600C90F9A /* Frameworks */,
+				0D6433D526DE1B6600C90F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GQPOC;
+			packageProductDependencies = (
+			);
+			productName = GQPOC;
+			productReference = 0D6433D726DE1B6600C90F9A /* GQPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D6433CF26DE1B6600C90F9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0D6433D626DE1B6600C90F9A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 0D6433D226DE1B6600C90F9A /* Build configuration list for PBXProject "GQPOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D6433CE26DE1B6600C90F9A;
+			packageReferences = (
+			);
+			productRefGroup = 0D6433D826DE1B6600C90F9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D6433D626DE1B6600C90F9A /* GQPOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D6433D526DE1B6600C90F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8D728726EA14BE00C349F1 /* GTWalsheimPro-MediumOblique.ttf in Resources */,
+				0D8D729526EA14BF00C349F1 /* GTWalsheimPro-BlackOblique.ttf in Resources */,
+				0D8D727F26EA14BE00C349F1 /* GTWalsheimPro-Thin.ttf in Resources */,
+				0D6433E226DE1B6700C90F9A /* Preview Assets.xcassets in Resources */,
+				0D8D727A26EA14BE00C349F1 /* GTWalsheimPro-Light.ttf in Resources */,
+				0D8D729326EA14BE00C349F1 /* GTWalsheimPro-CondensedMedium.ttf in Resources */,
+				0D8D728A26EA14BE00C349F1 /* GTWalsheimPro-CondensedLightOblique.ttf in Resources */,
+				0D8D728026EA14BE00C349F1 /* GTWalsheimPro-ThinOblique.ttf in Resources */,
+				0D8D727E26EA14BE00C349F1 /* GTWalsheimPro-CondensedThinOblique.ttf in Resources */,
+				0D8D728D26EA14BE00C349F1 /* GTWalsheimPro-CondensedBlackOblique.ttf in Resources */,
+				0D8D729626EA14BF00C349F1 /* GTWalsheimPro-Regular.ttf in Resources */,
+				0D8D728B26EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraLight.ttf in Resources */,
+				0D8D728C26EA14BE00C349F1 /* GTWalsheimPro-LightOblique.ttf in Resources */,
+				0D8D729826EA14BF00C349F1 /* GTWalsheimPro-BoldOblique.ttf in Resources */,
+				0D8D728626EA14BE00C349F1 /* GTWalsheimPro-UltraLightOblique.ttf in Resources */,
+				0D8D728826EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraBoldOblique.ttf in Resources */,
+				0D8D728F26EA14BE00C349F1 /* GTWalsheimPro-CondensedLight.ttf in Resources */,
+				0D8D729126EA14BE00C349F1 /* GTWalsheimPro-UltraBoldOblique.ttf in Resources */,
+				0D8D727C26EA14BE00C349F1 /* GTWalsheimPro-UltraLight.ttf in Resources */,
+				0D8D729226EA14BE00C349F1 /* GTWalsheimPro-CondensedBold.ttf in Resources */,
+				0D8D728226EA14BE00C349F1 /* GTWalsheimPro-Medium.ttf in Resources */,
+				0D8D729026EA14BE00C349F1 /* GTWalsheimPro-CondensedThin.ttf in Resources */,
+				0D8D729426EA14BF00C349F1 /* GTWalsheimPro-CondensedBoldOblique.ttf in Resources */,
+				0D8D728126EA14BE00C349F1 /* GTWalsheimPro-Bold.ttf in Resources */,
+				0D8D727B26EA14BE00C349F1 /* GTWalsheimPro-CondensedRegular.ttf in Resources */,
+				0D8D728926EA14BE00C349F1 /* GTWalsheimPro-CondensedBlack.ttf in Resources */,
+				0D6433DF26DE1B6700C90F9A /* Assets.xcassets in Resources */,
+				0D8D727D26EA14BE00C349F1 /* GTWalsheimPro-CondensedUltraLightOblique.ttf in Resources */,
+				0D8D729926EA14BF00C349F1 /* GTWalsheimPro-CondensedMediumOblique.ttf in Resources */,
+				0D8D728426EA14BE00C349F1 /* GTWalsheimPro-CondensedRegularOblique.ttf in Resources */,
+				0D8D728326EA14BE00C349F1 /* GTWalsheimPro-Black.ttf in Resources */,
+				0D8D728E26EA14BE00C349F1 /* GTWalsheimPro-RegularOblique.ttf in Resources */,
+				0D8D728526EA14BE00C349F1 /* GTWalsheimPro-UltraBold.ttf in Resources */,
+				0D8D729726EA14BF00C349F1 /* GTWalsheimPro-CondensedUltraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D6433D326DE1B6600C90F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE17AC526F25CF300CEC352 /* OutlineButton.swift in Sources */,
+				0D3A594E2702FB900098267D /* LaunchView.swift in Sources */,
+				0D4F4FAD26FDC3D80040937F /* Constants.swift in Sources */,
+				0DBACF5126FC5E9D0039BEE7 /* HorizontalAlignment.swift in Sources */,
+				E2AAD3DA27044ED80090B852 /* LoaderView.swift in Sources */,
+				E2AAD3CB2703BF430090B852 /* TabsView.swift in Sources */,
+				E2AAD3D22703CB2B0090B852 /* AsyncImage.swift in Sources */,
+				0D3A5951270308370098267D /* ExtendedDivider.swift in Sources */,
+				0D4F4FA726FDA45D0040937F /* Font+ViewModifier.swift in Sources */,
+				0DBACF5026FC5E9D0039BEE7 /* SegmentedPicker.swift in Sources */,
+				0D4F4FB126FDCEDF0040937F /* Color+Palette.swift in Sources */,
+				0D6433DD26DE1B6700C90F9A /* MainView.swift in Sources */,
+				0DD6420B26DEA6890071F1CE /* Carousel.swift in Sources */,
+				0D83120D26E20FDF0044ACFB /* ShoppingCard.swift in Sources */,
+				E2AAD3D727044E010090B852 /* PullToRefresh.swift in Sources */,
+				0DBACF4826FB4EBC0039BEE7 /* ImageViewCard.swift in Sources */,
+				E2AAD3D42704259D0090B852 /* ImageCache.swift in Sources */,
+				0DA50C4E2701D043006E69E8 /* ItemDetailView.swift in Sources */,
+				E2AAD3CF2703CB050090B852 /* ImageLoader.swift in Sources */,
+				0DBCE3E426F9BB22005E0504 /* Staggered.swift in Sources */,
+				0DF3CA6D26E9F204002EB9F2 /* FancyShape.swift in Sources */,
+				0DE17AC226F0AC6800CEC352 /* Section.swift in Sources */,
+				0D4F4FA926FDA62C0040937F /* View+FontStyles.swift in Sources */,
+				0D83120926E1E7900044ACFB /* ContentCard.swift in Sources */,
+				E2AAD3CD2703C60A0090B852 /* RecommendationsView.swift in Sources */,
+				0D6433DB26DE1B6700C90F9A /* GQPOCApp.swift in Sources */,
+				0DBACF4F26FC5E9D0039BEE7 /* View+OptionalAlignment.swift in Sources */,
+				0DDE3DFC26E62923008FAD13 /* FancyContentCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D6433E426DE1B6700C90F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D6433E526DE1B6700C90F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D6433E726DE1B6700C90F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GQPOC/Preview Content\"";
+				DEVELOPMENT_TEAM = H557LCG348;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GQPOC/Supporting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.condenast.GQPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D6433E826DE1B6700C90F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GQPOC/Preview Content\"";
+				DEVELOPMENT_TEAM = H557LCG348;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GQPOC/Supporting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.condenast.GQPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D6433D226DE1B6600C90F9A /* Build configuration list for PBXProject "GQPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D6433E426DE1B6700C90F9A /* Debug */,
+				0D6433E526DE1B6700C90F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D6433E626DE1B6700C90F9A /* Build configuration list for PBXNativeTarget "GQPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D6433E726DE1B6700C90F9A /* Debug */,
+				0D6433E826DE1B6700C90F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D6433CF26DE1B6600C90F9A /* Project object */;
+}
