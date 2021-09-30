@@ -56,6 +56,7 @@ struct RecommendationsView: View {
             }
         }
         .padding(.top, 16)
+        .padding([.leading, .trailing], 10)
         .background(Color.background)
         .edgesIgnoringSafeArea(.all)
     }

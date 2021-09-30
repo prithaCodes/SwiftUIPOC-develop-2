@@ -142,7 +142,7 @@ struct ItemDetailView: View {
                   dismissButton: .default(Text("OK")))
         }
         .actionSheet(isPresented: $showActionSheet, content: {
-            let action1 = ActionSheet.Button.default(Text("Appple Pay")) {}
+            let action1 = ActionSheet.Button.default(Text("Apple Pay")) {}
             let action2 = ActionSheet.Button.default(Text("Credit Card")) {}
             let action3 = ActionSheet.Button.destructive(Text("Cancel")){}
             return ActionSheet(title: Text("How do you want to pay?"),

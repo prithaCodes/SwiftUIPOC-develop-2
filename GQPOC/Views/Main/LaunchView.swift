@@ -18,7 +18,7 @@ struct LaunchView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Spacer().frame(height: 24)
+                Spacer().frame(height: 58)
                 Section(
                     title: "Welcome back, John",
                     subtitle: "13 September 2021",

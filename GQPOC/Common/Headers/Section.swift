@@ -24,6 +24,7 @@ struct Section: View {
     private var titleView: some View {
         HStack(alignment: .top, spacing: 12)  {
             contentView
+            Spacer()
             if disclosureText != nil, disclosureImageUrl != nil {
                 disclosureView
             }
@@ -50,7 +51,7 @@ struct Section: View {
                         color: .secon
                     )
             }
-            .frame(maxWidth: .infinity, alignment: .leading)
+           // .frame(maxWidth: .infinity, alignment: .leading)
         }
     }
     
